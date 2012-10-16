@@ -26,6 +26,10 @@ group :assets do
 end
 
 gem 'jquery-rails' 
+group :assets do
+  # asset_sync is required as needed by application.rb
+  gem 'asset_sync', :require => nil
+end
 
 
 # To use ActiveModel has_secure_password

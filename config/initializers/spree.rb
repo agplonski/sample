@@ -11,4 +11,8 @@ Spree.config do |config|
   # config.site_name = "Spree Demo Site"
 end
 
-Spree.user_class = "Spree::User"
+Spree.user_class = "Spree::User"  
+Spree.config do |config|
+  config.site_url = 'http://secret-meadow-1006.herokuapp.com/'
+end
+

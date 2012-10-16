@@ -8,6 +8,9 @@ gem 'rails', '3.2.8'
 gem 'mysql2'
 gem 'pg'
 gem 'heroku'
+group :production do
+  gem 'puma'
+end
 
 
 # Gems used only for assets and not required
@@ -23,7 +26,7 @@ group :assets do
 end
 
 gem 'jquery-rails' 
-gem 'thin'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

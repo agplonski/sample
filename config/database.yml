@@ -27,7 +27,7 @@ test:
   reconnect: false
   database: sample_test
   pool: 5
-  username: 
+  username:root 
   password:
   host: localhost
 
